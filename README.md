@@ -10,6 +10,18 @@ but that those components work when accessed by its users. This project will aim
 - Test how much traffic GIVE can handle before breaking
 - Identify areas within GIVE that can be improved (performance or otherwise)
 
+## Installation
+To install the GIVE Load Testing tooling, use the following:
+```shell
+git clone https://github.com/18F/identity-give-load-testing
+cd identity-give-load-testing
+python -m venv .venv
+python -m pip install -r requirements.txt
+```
+
+## Usage
+Running the tool (after following the above install) can be done with `locust`
+
 ## Contributing
 
 See [CONTRIBUTING](CONTRIBUTING.md) for additional information.
